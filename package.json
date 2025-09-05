@@ -1,4 +1,4 @@
-"homepage": "https://username.github.io/upifrauddetection"
+
 {
   "name": "vite-react-typescript-starter",
   "private": true,
@@ -35,4 +35,4 @@
     "vite": "^5.4.2"
   }
 }
-
+"homepage": "https://username.github.io/upifrauddetection"
