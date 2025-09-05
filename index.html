@@ -1,13 +1,33 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UPI Fraud Detection Dashboard</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPI Fraud Detection - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>UPI Fraud Detection</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="trends.html">Trends</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Upload Your Dataset</h2>
+    <p>Upload a CSV dataset to analyze fraud detection trends.</p>
+    <input type="file" id="fileUpload" accept=".csv">
+    <div id="fileInfo"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 UPI Fraud Detection Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
